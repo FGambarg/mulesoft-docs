@@ -140,7 +140,7 @@ This configuration is only valid when using the Runtime Manager agent 1.5.2 and 
 
 If you want to log your Runtime Manager Agent state in a different location than the default 'mule_agent.log' file you can set up your log configuration file to do this.
 
-You can configure your '$MULE_HOME/conf/log4j2.xml' file to include a new Log4j2 Appender called 'mule-agent-appender'. If included, the Runtime Manager Agent plugin will use this appender to log his state.
+You can configure your '$MULE_HOME/conf/log4j2.xml' file to include a new Log4j2 Appender called 'mule-agent-appender'. If included, the Runtime Manager Agent plugin will use this appender to log its state.
 
 Your `log4j2.xml` file should include something like the following snippet to enable this functionality:
 
